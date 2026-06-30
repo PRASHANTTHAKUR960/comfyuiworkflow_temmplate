@@ -1,1 +1,13 @@
-
+{
+  "name": "comfyuiworkflow-template-downloader",
+  "version": "1.0.0",
+  "description": "Download all public ComfyUI workflows from comfy.org",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "playwright": "^1.55.0"
+  }
+}
